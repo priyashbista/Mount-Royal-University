@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/main">
+    <ImageView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="44.0dp" />
+    <ImageButton
+        android:id="@+id/UseInstagram"
+        android:layout_width="280.0dp"
+        android:layout_height="80.0dp"
+        android:alpha="0.7"
+        android:src="@drawable/withIG"
+        android:background="@android:color/transparent" />
+    <ImageButton
+        android:id="@+id/NoInstagram"
+        android:layout_width="280.0dp"
+        android:layout_height="80.0dp"
+        android:alpha="0.8"
+        android:src="@drawable/withoutIG"
+        android:padding="70dp"
+        android:background="@android:color/transparent" />
+</LinearLayout>
